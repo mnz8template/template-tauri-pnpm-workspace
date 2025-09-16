@@ -1,0 +1,9 @@
+{
+    "$schema": "https://schema.tauri.app/config/2",
+    "build": {
+        "beforeDevCommand": "pnpm -F ui-mobile dev",
+        "devUrl": "http://localhost:11420",
+        "beforeBuildCommand": "pnpm -F ui-mobile build",
+        "frontendDist": "../ui-mobile/dist"
+    }
+}

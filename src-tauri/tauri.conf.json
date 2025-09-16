@@ -4,10 +4,10 @@
   "version": "0.1.0",
   "identifier": "tauri.restructure.workspace",
   "build": {
-    "beforeDevCommand": "pnpm dev",
+    "beforeDevCommand": "pnpm -F ui-desktop dev",
     "devUrl": "http://localhost:1420",
-    "beforeBuildCommand": "pnpm build",
-    "frontendDist": "../dist"
+    "beforeBuildCommand": "pnpm -F ui-desktop build",
+    "frontendDist": "../ui-desktop/dist"
   },
   "app": {
     "windows": [
