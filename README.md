@@ -2,6 +2,15 @@
 
 This template should help get you started developing with Tauri, React and Typescript in Vite.
 
-## Recommended IDE Setup
+Desktop
 
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+```
+pnpm tauri dev
+```
+
+Mobile
+
+```
+pnpm tauri android init -c src-tauri/tauri.mobile.conf.json
+pnpm tauri android dev -c src-tauri/tauri.mobile.conf.json
+```

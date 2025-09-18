@@ -1,11 +1,12 @@
 {
-    "name": "template-tauri-restructure-workspace",
-    "private": true,
-    "version": "0.1.0",
-    "scripts": {
-        "tauri": "tauri"
-    },
-    "devDependencies": {
-        "@tauri-apps/cli": "^2.8.4"
-    }
+  "name": "template-tauri-restructure-workspace",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "tauri": "tauri",
+    "clear": "sh ./scripts/clear.sh"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.8.4"
+  }
 }
