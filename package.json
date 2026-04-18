@@ -1,0 +1,12 @@
+{
+  "name": "template-tauri-pnpm-workspace",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "tauri": "tauri",
+    "clean": "sh ./scripts/clean.sh"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.10.1"
+  }
+}

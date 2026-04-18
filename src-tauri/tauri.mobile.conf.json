@@ -1,0 +1,12 @@
+{
+  "$schema": "../node_modules/@tauri-apps/cli/config.schema.json",
+  "productName": "template-tauri-pnpm-workspace",
+  "version": "0.0.1",
+  "identifier": "com.template-tauri-pnpm-workspace",
+  "build": {
+    "frontendDist": "../ui-mobile/dist",
+    "devUrl": "http://localhost:26000",
+    "beforeDevCommand": "pnpm -F ui-mobile dev",
+    "beforeBuildCommand": "pnpm -F ui-mobile build"
+  }
+}

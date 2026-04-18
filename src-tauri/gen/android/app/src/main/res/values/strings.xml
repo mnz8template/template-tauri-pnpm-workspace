@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">template-tauri-pnpm-workspace</string>
+    <string name="main_activity_title">template-tauri-pnpm-workspace</string>
+</resources>
